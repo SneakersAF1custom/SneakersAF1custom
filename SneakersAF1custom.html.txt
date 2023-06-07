@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneakers AF1 Custom</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: red;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: white;
+      font-size: 36px;
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    footer {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sneakers AF1 Custom</h1>
+    <img src="https://w0.peakpx.com/wallpaper/531/1004/HD-wallpaper-nike-air-force-one-airforce-backgrounds-design.jpg" alt="Imagen de tu negocio">
+  </header>
+  
+  <main>
+    <h2>Bienvenido a Sneakers AF1 Custom</h2>
+    <p>Somos un negocio mexicano especializado en la personalización de sneakers Air Force 1. Nos enorgullece ofrecer estilos únicos y de calidad inspirados en la cultura estadounidense. ¡Queremos que tus sneakers reflejen tu personalidad!</p>
+    
+    <h3>Envíanos tu boceto de sneakers Air Force 1</h3>
+    <p>Si tienes una idea en mente para tus sneakers personalizados, ¡estamos aquí para hacerla realidad! Simplemente envíanos un mensaje con tu boceto y nos pondremos en contacto contigo para discutir los detalles.</p>
+    
+    <form action="tu_script_de_procesamiento.php" method="POST" enctype="multipart/form-data">
+      <label for="boceto">Adjunta tu boceto:</label>
+      <input type="file" id="boceto" name="boceto" accept="image/*" required>
+      <br>
+      <label for="mensaje">Mensaje adicional:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      <br>
+      <input type="submit" value="Enviar">
+    </form>
+  </main>
+  
+  <footer>
+    <h4>Síguenos en las redes sociales</h4>
+    <a href="https://www.instagram.com/sneakers_af1_custom/">Instagram</a> |
+    Correo electrónico: sneakersaf1custom@gmail.com
+  </footer>
+</body>
+</html>
